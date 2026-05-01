@@ -60,7 +60,7 @@ int main(void) {
 
     DrawGrid(10, 1.0f);
     EndMode3D();
-    DrawText("<WASD> for moving | Mouse for viewing", 4.0f , 580.0f, 17.0f, RAYWHITE);
+    DrawText("<WASD> for moving  |  Mouse for viewing", 4.0f , 580.0f, 17.0f, RAYWHITE);
     EndDrawing();
     }
     

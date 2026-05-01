@@ -12,8 +12,6 @@
 | `Q` / `E` | Move up / down |
 | `ESC` | Quit |
  
----
- 
 ### Install & run
  
 ```bash
@@ -27,13 +25,12 @@ make PLATFORM=PLATFORM_DESKTOP
 sudo make install
 ```
 ```bash
- clang code.c -I/opt/homebrew/include -L/opt/homebrew/lib -lraylib -lm -g -o shapes 
+git clone https://github.com/fivawyr/tiny_shapes.git
+cd # where ever you clone this repo
+clang code.c -I/opt/homebrew/include -L/opt/homebrew/lib -lraylib -lm -g -o shapes 
 # Run it
 ./shapes
 ```
- 
----
- 
 ![Demo](resources/demo_pic.png)
 > Screenshot from the application
 ## Resources
